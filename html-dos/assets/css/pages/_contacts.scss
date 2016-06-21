@@ -2,10 +2,24 @@
   height: 395px;
   width: 275px;
   margin: 30px auto;
-  background: $dark-grey;
   border-radius: 15px;
   color: $white;
+  background: $black;
   .header {
     padding: 10px 20px;
+    background: $dark-grey;
+  }
+  .contacts {
+    margin: 2px 0;
+    background: $dark-grey;
+    .left-col,.right-col {
+      padding: 10px 20px;
+      border-right: 1px solid $black;
+      .contact-detail {
+        img {
+          padding-right: 5px;
+        }
+      }
+    }
   }
 }
