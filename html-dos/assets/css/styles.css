@@ -5810,7 +5810,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 .contacts-wrap {
-  height: 395px;
+  height: 420px;
   width: 275px;
   margin: 30px auto;
   border-radius: 15px;
@@ -5818,14 +5818,31 @@ button.close {
   background: #000; }
   .contacts-wrap .header {
     padding: 10px 20px;
-    background: #212121; }
+    background: #212121;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; }
   .contacts-wrap .contacts {
     margin: 2px 0;
     background: #212121; }
-    .contacts-wrap .contacts .left-col, .contacts-wrap .contacts .right-col {
+    .contacts-wrap .contacts .left-col {
       padding: 10px 20px;
       border-right: 1px solid #000; }
-      .contacts-wrap .contacts .left-col .contact-detail img, .contacts-wrap .contacts .right-col .contact-detail img {
+      .contacts-wrap .contacts .left-col .contact-detail img {
         padding-right: 5px; }
+    .contacts-wrap .contacts .right-col {
+      padding: 10px 20px; }
+      .contacts-wrap .contacts .right-col .contact-detail img {
+        padding-right: 5px; }
+  .contacts-wrap .footer {
+    padding: 10px 20px;
+    background: #212121;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; }
+    .contacts-wrap .footer .contact-select {
+      display: block;
+      margin-left: auto;
+      background: #212121;
+      padding: 8px;
+      font-size: 11px; }
 
 /*# sourceMappingURL=styles.css.map */

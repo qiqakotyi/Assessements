@@ -1,6 +1,6 @@
 .contacts-wrap {
   height: 420px;
-  width: 275px;
+  width: 320px;
   margin: 30px auto;
   border-radius: 15px;
   color: $white;
@@ -14,7 +14,7 @@
   .contacts {
     margin: 2px 0;
     background: $dark-grey;
-    .left-col,.right-col {
+    .left-col {
       padding: 10px 20px;
       border-right: 1px solid $black;
       .contact-detail {
@@ -22,6 +22,9 @@
           padding-right: 5px;
         }
       }
+    }
+    .right-col {
+      padding: 10px 20px;
     }
   }
   
