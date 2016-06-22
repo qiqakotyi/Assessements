@@ -1,5 +1,5 @@
 .contacts-wrap {
-  height: 395px;
+  height: 420px;
   width: 275px;
   margin: 30px auto;
   border-radius: 15px;
@@ -8,6 +8,8 @@
   .header {
     padding: 10px 20px;
     background: $dark-grey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
   .contacts {
     margin: 2px 0;
@@ -20,6 +22,21 @@
           padding-right: 5px;
         }
       }
+    }
+  }
+  
+  .footer {
+    padding: 10px 20px;
+    background: $dark-grey;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+    .contact-select {
+        display: block;
+        margin-left: auto;
+        background: $dark-grey;
+        padding: 8px;
+        font-size: 11px;
     }
   }
 }
