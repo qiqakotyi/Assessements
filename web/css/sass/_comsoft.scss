@@ -1,5 +1,15 @@
-.container-fluid {
-    max-width: 1230px;
+.navbar {
+    min-height: 80px;
+
+    .container {
+        max-width: 1230px;
+        margin-top: 15px
+    }
+}
+
+
+.banner {
+    min-height: 960px;
 }
 
 .services-menu {
@@ -34,6 +44,11 @@
 
         img {
             display: inline-block;
+        }
+
+        &:hover {
+            border: 1px solid #d51a36;
+            color:#d51a36;
         }
     }
 }

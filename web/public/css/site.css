@@ -1,33 +1,6 @@
 body {
   display: block; }
 
-.container-fluid {
-  max-width: 1230px; }
-
-.services-menu {
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
-
-.col {
-  float: left;
-  width: 25%; }
-  .col .col-inner {
-    border: 1px solid #fff;
-    border-bottom: none;
-    border-right: none;
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    font-weight: 500;
-    min-height: 120px;
-    padding: 30px;
-    text-align: center; }
-    .col .col-inner h3 {
-      display: inline-block; }
-    .col .col-inner img {
-      display: inline-block; }
-
 /*--Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -1313,3 +1286,38 @@ span.glyphicon.glyphicon-chevron-up {
     margin: 10px 5px; } }
 
 /*-- responsive ends here--*/
+.navbar {
+  min-height: 80px; }
+  .navbar .container {
+    max-width: 1230px;
+    margin-top: 15px; }
+
+.banner {
+  min-height: 960px; }
+
+.services-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.col {
+  float: left;
+  width: 25%; }
+  .col .col-inner {
+    border: 1px solid #fff;
+    border-bottom: none;
+    border-right: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 120px;
+    padding: 30px;
+    text-align: center; }
+    .col .col-inner h3 {
+      display: inline-block; }
+    .col .col-inner img {
+      display: inline-block; }
+    .col .col-inner:hover {
+      border: 1px solid #d51a36;
+      color: #d51a36; }
